@@ -107,16 +107,16 @@ $this->title = 'Paulo Roberto Leardi';
         <div class="container">
             
             <div class="row">
-                <div class="col-md-4" style="text-align: right;">
+                <div class="col-md-3" style="text-align: right;">
                     <div class="thumbnail">
                         <img class="img-responsive" src="images/home-seja-um-franqueado.jpg" />
                     </div>
                 </div>
                 
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3>Seja um Franqueado Paulo Roberto Leardi</h3>
+                            <h3 style="margin-top:5px;">Seja um Franqueado Paulo Roberto Leardi</h3>
                         </div>
                     </div>
                     <div class="row">
@@ -149,7 +149,7 @@ $this->title = 'Paulo Roberto Leardi';
             
             <div class="row">
                 <div class="col-md-8" style="text-align: right;">
-                    <h3>Trabalhe Conosco! Seja um corretor Paulo Roberto Leardi.</h3>
+                    <h3 style="margin-top: 5px;">Trabalhe Conosco! Seja um corretor Paulo Roberto Leardi.</h3>
                     <h4>Imagine uma imobili&aacute;ria:</h4>
                      <h5> Onde você trabalha diretamente com o dono, com decisões descentralizadas <span class="glyphicon glyphicon-check"></span></h5>
                      <h5> Que o dono, franqueado, possui total apoio e autonomia jurídica e financeira <span class="glyphicon glyphicon-check"></span></h5>
