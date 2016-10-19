@@ -107,35 +107,15 @@ $this->title = 'Paulo Roberto Leardi';
         <div class="container">
             
             <div class="row">
-                <div class="col-md-3" style="text-align: right;">
+                <div class="col-sm-4" style="text-align: right;">
                     <div class="thumbnail">
                         <img class="img-responsive" src="images/home-seja-um-franqueado.jpg" />
                     </div>
                 </div>
                 
-                <div class="col-md-9">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3 style="margin-top:5px;">Seja um Franqueado Paulo Roberto Leardi</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h5><span class="glyphicon glyphicon-check"></span> Metodologia de trabalho consolidada</h5>
-                            <h5><span class="glyphicon glyphicon-check"></span> Investimentos em publicidade online</h5>
-                            <h5><span class="glyphicon glyphicon-check"></span> Site e redes sociais com ampla audiencia</h5>
-                            <h5><span class="glyphicon glyphicon-check"></span> Revista com tiragem de mais de 80 mil</h5>                            
-                            <h5><span class="glyphicon glyphicon-check"></span> Capacitacao e manuais de implantacao e gestao</h5>
-                            <h5><span class="glyphicon glyphicon-check"></span> Sistema completo de gestao online</h5>
-                            <h5><span class="glyphicon glyphicon-check"></span> Universidade Leardi com mais de 90 cursos e tutoriais</h5>
-                            <h5><span class="glyphicon glyphicon-check"></span> Associada a ABF - Associacao Brasileira de Franchising</h5>       
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <button class="btn btn-warning">VENHA FAZER PARTE DO NOSSO TIME !</button>
-                        </div>
-                    </div>
+                <div class="col-sm-8">
+                    <h3>Empreenda montando a sua imobiliária e sendo líder mesmo antes de iniciar a operação, baixo investimento com alta rentabilidade, saiba mais.</h3>
+                    <button class="btn btn-warning">SEJA UM FRANQUEADO!</button>
                </div>
                 
             </div>
@@ -148,22 +128,11 @@ $this->title = 'Paulo Roberto Leardi';
         <div class="container">
             
             <div class="row">
-                <div class="col-md-8" style="text-align: right;">
-                    <h3 style="margin-top: 5px;">Trabalhe Conosco! Seja um corretor Paulo Roberto Leardi.</h3>
-                    <h4>Imagine uma imobili&aacute;ria:</h4>
-                     <h5> Onde você trabalha diretamente com o dono, com decisões descentralizadas <span class="glyphicon glyphicon-check"></span></h5>
-                     <h5> Que o dono, franqueado, possui total apoio e autonomia jurídica e financeira <span class="glyphicon glyphicon-check"></span></h5>
-                     <h5> Que o sistema de gestão seja simples e totalmente construído para auxiliar o corretor fechar negócios <span class="glyphicon glyphicon-check"></span></h5>
-                     <h5> Que possui a maior cobertura de marketing e mídia do mercado <span class="glyphicon glyphicon-check"></span></h5>
-                     <h5> Que tem uma marca forte reconhecida por clientes e concorrentes de todos os níveis <span class="glyphicon glyphicon-check"></span></h5>
-                     <h5> Com um banco de dados completo de todas as regiões <span class="glyphicon glyphicon-check"></span></h5>
-                     <h5> Que possui agilidade no processo de fechamento sem burocracia <span class="glyphicon glyphicon-check"></span></h5>
-                     <h5> Que, mesmo com toda esta estrutura, consegue praticar as melhores remunerações do mercado <span class="glyphicon glyphicon-check"></span></h5>
-                     <h5> Associada a ABF - Associacao Brasileira de Franchising <span class="glyphicon glyphicon-check"></span></h5>
-                     <h5> E que o plano de carreira vai até o ponto onde você abre sua própria imobiliária, sem perder o que construiu <span class="glyphicon glyphicon-check"></span></h5>
-                    <button class="btn btn-warning">SEJA UM CORRETOR LEARDI !</button>
+                <div class="col-sm-8" style="text-align: right;">
+                    <h3>Seja um corretor LEARDI, descubra como fazer parte da nossa família e as vantagens.</h3>
+                    <button class="btn btn-warning" style="margin-bottom: 20px;">TRABALHE CONOSCO!</button>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <div class="thumbnail">
                         <img class="img-responsive" src="images/home-trabalhe-conosco.jpg" />
                     </div>
