@@ -42,7 +42,7 @@ $this->registerJs('$("#lightgallery").lightGallery({selector: ".guru-image-item"
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div style="background-color: #E1ECF8; width: 100%;">
-    <div class="container" style="margin-top: 20px;">
+    <div class="container" style="padding-top: 20px;">
 
             <div class="row">
 

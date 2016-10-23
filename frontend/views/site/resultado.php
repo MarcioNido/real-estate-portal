@@ -29,7 +29,7 @@ $this->params['breadcrumbs'][] = 'Apartamentos';
 </div>
 
 <div style="background-color: #E1ECF8; width: 100%;">
-    <div class="container" style="margin-top: 20px;">
+    <div class="container" style="padding-top: 20px;">
 
         <div  id="ph_toggle_filtro" class="row hidden-lg" style="margin-bottom: 15px;">
                 <div class="col-xs-12">

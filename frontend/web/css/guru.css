@@ -41,13 +41,22 @@ img.guru-brand {max-height: 70px;}
     border-color: #666666;
 }
 
+.panel-darkblue > .panel-heading {
+    color: #fff;
+    background-color: #345C8C;
+    border-color: #345C8C;
+}
+.panel-darkblue {
+    border-color: #345C8C;
+}
+
 .breadcrumb {background-color: #345C8C; font-size: 12px; margin-bottom: 0;}
 .breadcrumb > li {color: #CCCCCC;}
 .breadcrumb .active {color: #E7E7E7;}
 .breadcrumb > li a {color: #CCCCCC;}
 
 
-
+.justified {text-align: justify;}
 
 
 

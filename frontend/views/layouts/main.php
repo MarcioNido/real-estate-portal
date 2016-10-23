@@ -18,6 +18,7 @@ $this->registerJs('$(".guru-chosen-no-search").chosen({ width: "100%", disable_s
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">     
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
@@ -39,23 +40,24 @@ $this->registerJs('$(".guru-chosen-no-search").chosen({ width: "100%", disable_s
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
+        ['label' => 'Sobre', 'url' => ['/site/sobre']],
+        ['label' => 'Contato', 'url' => ['/site/contact']],
     ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+        $menuItems[] = ['label' => "<span class='fa fa-user' style='color: #6B88AE'></span> ENTRAR", 'url' => ['/site/login']];
     } else {
+        $menuItems[] = ['label'=>"&Aacute;rea do Cliente", 'url'=>['/area-cliente/index']];        
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
             . Html::submitButton(
-                'Logout (' . Yii::$app->user->identity->username . ')',
+                "<span class='fa fa-user' style='color: #6B88AE'></span> SAIR",
                 ['class' => 'btn btn-link']
             )
             . Html::endForm()
             . '</li>';
     }
     echo Nav::widget([
+        'encodeLabels'=>false,
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => $menuItems,
     ]);
@@ -71,7 +73,7 @@ $this->registerJs('$(".guru-chosen-no-search").chosen({ width: "100%", disable_s
         </div>
     </div>
     
-    <div style="background-color: #E1ECF8; width: 100%">
+    <div style="width: 100%">
         
             <?= Alert::widget() ?>
             <?= $content ?>

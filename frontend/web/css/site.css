@@ -97,7 +97,8 @@ a.desc:after {
 
 /* align the logout "link" (button in form) of the navbar */
 .nav > li > form {
-    padding: 8px;
+    padding: 0;
+    line-height: 68px;
 }
 
 @media(max-width:768px) {

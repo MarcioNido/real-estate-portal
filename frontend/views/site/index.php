@@ -7,7 +7,7 @@ $this->title = 'Paulo Roberto Leardi';
 ?>
 <div class="site-index">
 
-    <div class="container-fluid" style="background: #ddd url(images/bg_site1.png) top no-repeat; height: 490px; overflow: hidden">
+    <div class="container-fluid" style="background: #ddd url(images/AdobeStock_103524609_WM.jpeg) top no-repeat; height: 490px; overflow: hidden">
         <div class="">
             <div class="row">
                 <div class="col-lg-8 guru-home-panel-container" style="">
@@ -107,15 +107,20 @@ $this->title = 'Paulo Roberto Leardi';
         <div class="container">
             
             <div class="row">
+                
                 <div class="col-sm-4" style="text-align: right;">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="images/home-seja-um-franqueado.jpg" />
+                        <a href="index.php?r=site/seja-um-franqueado">
+                            <img class="img-responsive" src="images/home-seja-um-franqueado.jpg" />
+                        </a>
                     </div>
                 </div>
                 
                 <div class="col-sm-8">
-                    <h3>Empreenda montando a sua imobiliária e sendo líder mesmo antes de iniciar a operação, baixo investimento com alta rentabilidade, saiba mais.</h3>
-                    <button class="btn btn-warning">SEJA UM FRANQUEADO!</button>
+                    <a href="index.php?r=site/seja-um-franqueado">
+                        <h3>Empreenda montando a sua imobiliária e sendo líder mesmo antes de iniciar a operação, baixo investimento com alta rentabilidade, saiba mais.</h3>
+                    </a>
+                    <a href="index.php?r=site/seja-um-franqueado" class="btn btn-warning">SEJA UM FRANQUEADO!</a>
                </div>
                 
             </div>

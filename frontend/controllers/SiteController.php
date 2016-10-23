@@ -86,6 +86,16 @@ class SiteController extends Controller
     {
         return $this->render('detalhe', ['id' => $id]);
     }
+    
+    public function actionSejaUmFranqueado()
+    {
+        return $this->render('seja-um-franqueado');
+    }
+    
+    public function actionSobre()
+    {
+        return $this->render('sobre');
+    }
 
     /**
      * Logs in a user.
@@ -100,7 +110,7 @@ class SiteController extends Controller
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
+            return $this->redirect(['area-cliente/index']);
         } else {
             return $this->render('login', [
                 'model' => $model,
@@ -184,11 +194,11 @@ class SiteController extends Controller
         $model = new PasswordResetRequestForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->sendEmail()) {
-                Yii::$app->session->setFlash('success', 'Check your email for further instructions.');
+                Yii::$app->session->setFlash('success', "Siga as instru&ccedil;&otilde;es enviadas para o seu e-mail");
 
-                return $this->goHome();
+                return $this->redirect(['login']);
             } else {
-                Yii::$app->session->setFlash('error', 'Sorry, we are unable to reset password for email provided.');
+                Yii::$app->session->setFlash('error', 'Desculpe, n&atilde; foi poss&iacute;vel redefinir a senha do e-mail selecionado.');
             }
         }
 

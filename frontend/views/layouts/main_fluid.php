@@ -41,23 +41,24 @@ $this->registerJs('$(".guru-chosen-no-search").chosen({ width: "100%", disable_s
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
+        ['label' => 'Sobre', 'url' => ['/site/sobre']],
+        ['label' => 'Contato', 'url' => ['/site/contact']],
     ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+        $menuItems[] = ['label' => "<span class='fa fa-user' style='color: #6B88AE'></span> ENTRAR", 'url' => ['/site/login']];
     } else {
+        $menuItems[] = ['label'=>"&Aacute;rea do Cliente", 'url'=>['/area-cliente/index']];
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
             . Html::submitButton(
-                'Logout (' . Yii::$app->user->identity->username . ')',
+                "<span class='fa fa-user' style='color: #6B88AE'></span> SAIR",
                 ['class' => 'btn btn-link']
             )
             . Html::endForm()
             . '</li>';
     }
     echo Nav::widget([
+        'encodeLabels'=>false,
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => $menuItems,
     ]);
