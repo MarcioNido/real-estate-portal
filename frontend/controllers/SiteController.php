@@ -96,6 +96,11 @@ class SiteController extends Controller
     {
         return $this->render('sobre');
     }
+    
+    public function actionAgencias()
+    {
+        return $this->render('agencias');
+    }
 
     /**
      * Logs in a user.

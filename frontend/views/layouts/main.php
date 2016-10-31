@@ -40,8 +40,9 @@ $this->registerJs('$(".guru-chosen-no-search").chosen({ width: "100%", disable_s
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'Sobre', 'url' => ['/site/sobre']],
         ['label' => 'Contato', 'url' => ['/site/contact']],
+        ['label' => 'Agencias', 'url' => ['/site/agencias']],
+        ['label' => 'Blog', 'url' => ['/blog/index']],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => "<span class='fa fa-user' style='color: #6B88AE'></span> ENTRAR", 'url' => ['/site/login']];

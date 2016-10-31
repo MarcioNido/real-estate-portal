@@ -37,9 +37,9 @@ $this->params['breadcrumbs'][] = 'Area do Cliente';
                             
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    <h4 class='list-group-item-heading'>Pesquisa Ativa</h4>
+                                    <h4 class='list-group-item-heading'>Alertas por Email</h4>
                                     <p>Comprar Apartamento no Brooklin de 3 Dorms.</p>
-                                    <?= Html::a('Editar Pesquisa', ['area-cliente/page', 'page'=>'imovel'], ['class'=>'btn btn-warning']); ?>
+                                    <?= Html::a('Configurar Alerta', ['area-cliente/page', 'page'=>'pesquisa'], ['class'=>'btn btn-warning']); ?>
                                     <?= Html::a('Cancelar/Suspender', ['area-cliente/page', 'page'=>'imovel'], ['class'=>'btn btn-default']); ?>
                                 </li>
                             </ul>
@@ -49,6 +49,14 @@ $this->params['breadcrumbs'][] = 'Area do Cliente';
                                     <h4 class='list-group-item-heading'>Atendimento Ativo</h4>
                                     <p>Unidade: Groenl&acirc;ndia - Corretor: Jos&eacute; da Silva </p>
                                     <?= Html::a('Enviar Mensagem', ['area-cliente/page', 'page'=>'imovel'], ['class'=>'btn btn-warning']); ?>
+                                </li>
+                            </ul>
+                            
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <h4 class='list-group-item-heading'>Favoritos</h4>
+                                    <p><b>3</b> im&oacute;veis marcados como favoritos</p>
+                                    <?= Html::a('Visualizar Favoritos', ['area-cliente/page', 'page'=>'imovel'], ['class'=>'btn btn-warning']); ?>
                                 </li>
                             </ul>
                             
